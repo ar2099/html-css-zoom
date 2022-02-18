@@ -15,3 +15,30 @@
 
 
 
+
+/* ANCHOR HEADER */
+
+header {
+    height: 6vh;
+    background-color: blue;
+    display: flex;
+    width: 100%;
+}
+
+/* ANCHOR MAIN  */
+
+main {
+    height: 84vh;
+    background-color: blueviolet;
+    display: flex;
+    width: 100%;
+}
+
+/* ANCHOR FOOTER  */
+
+footer {
+    height: 10vh;
+    background-color: yellow;
+    width: 100%;
+    display: flex;
+}
