@@ -48,6 +48,15 @@ header {
     font-size: 0.8em;
     border-radius: 5px;
 }
+
+.h-sub-container:hover {
+    background-color: #ffffff;
+    padding: 5px;
+    color: blue;
+    font-size: 0.8em;
+    border-radius: 5px;
+    cursor: pointer;
+}
 /* ANCHOR MAIN  */
 
 main {
@@ -82,12 +91,35 @@ main {
     margin-bottom: 4px;
 } 
 
+.immagine-main:hover {
+    width: 195px;
+    /* background-color: aqua; */
+    height: 109.68px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    background-image: url(immagini/andrea-fan-club.jpg);
+} 
+
 .m-sub-container {
     background-color: #616161d0;
     padding: 5px;
     color: white;
     font-size: 0.8em;
     border-radius: 5px;
+}
+
+.m-sub-container:hover {
+    background-color: #ffffff;
+    padding: 5px;
+    color: blue;
+    font-size: 0.8em;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
 }
 
 .hunziker {
@@ -142,6 +174,16 @@ footer {
     margin-left: 16px;
 }
 
+.contenitore-icona:hover {
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 16px;
+    cursor: pointer;
+    background-color: #ffffffcc;
+}
+
 .icona-scritta {
     display: flex;
     flex-direction: column;
@@ -160,6 +202,12 @@ footer {
     color: greenyellow;
 }
 
+#icona-footer-verde:hover {
+    font-size: 1.6em;
+    margin-bottom: 6px;
+    color: rgb(255, 47, 47);
+}
+
 .scritta-sotto-icona {
     font-size: 0.7em;
 }
@@ -175,6 +223,15 @@ footer {
     background-color: rgb(78, 78, 78);
     font-size: 0.7em;
     color: red;
+}
+
+.end-meeting:hover {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 253, 253);
+    font-size: 0.7em;
+    color: red;
+    cursor: pointer;
 }
 
 .end-meeting span {
