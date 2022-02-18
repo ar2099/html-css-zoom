@@ -63,6 +63,7 @@ main {
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: space-between;
+    overflow: scroll;
 }
 
 .immagine-main {
