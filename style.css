@@ -47,7 +47,7 @@ header {
 /* ANCHOR MAIN  */
 
 main {
-    height: 84vh;
+    height: 86vh;
     background-color: black;
     display: flex;
     width: 100%;
@@ -57,12 +57,12 @@ main {
 
 .m-container {
     /* background-color: blue; */
-    height: 96%;
-    width: 92%;
+    height: 97%;
+    width: 96%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    align-content: space-between;
+   
     overflow: auto;
 }
 
@@ -74,6 +74,8 @@ main {
     background-position: center;
     display: flex;
     align-items: flex-end;
+    margin-right: 4px;
+    margin-bottom: 4px;
 } 
 
 .m-sub-container {
@@ -117,7 +119,7 @@ main {
 /* ANCHOR FOOTER  */
 
 footer {
-    height: 10vh;
+    height: 9vh;
     background-color: yellow;
     width: 100%;
     display: flex;
