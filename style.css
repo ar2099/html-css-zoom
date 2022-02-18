@@ -120,7 +120,47 @@ main {
 
 footer {
     height: 9vh;
-    background-color: yellow;
+    background-color: rgba(22, 22, 22, 0.87);
     width: 100%;
     display: flex;
+    justify-content: space-around;
+}
+
+.container-footer {
+    display: flex;
+}
+
+.contenitore-icona {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 16px;
+}
+
+.icona-scritta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icona-footer {
+    font-size: 1.6em;
+    margin-bottom: 6px;
+}
+
+#icona-footer-verde {
+    font-size: 1.6em;
+    margin-bottom: 6px;
+    color: greenyellow;
+}
+
+.scritta-sotto-icona {
+    font-size: 0.7em;
+}
+
+.chiusura {
+    margin-left: 10px;
+    font-size: 0.8em;
 }
