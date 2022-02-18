@@ -48,7 +48,7 @@ header {
 
 main {
     height: 84vh;
-    background-color: blueviolet;
+    background-color: black;
     display: flex;
     width: 100%;
     align-items: center;
@@ -56,23 +56,33 @@ main {
 }
 
 .m-container {
-    background-color: blue;
-    height: 95%;
-    width: 95%;
+    /* background-color: blue; */
+    height: 96%;
+    width: 92%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: space-between;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .immagine-main {
-    width: 200px;
-    background-color: aqua;
-    height: 112.5px;
+    width: 195px;
+    /* background-color: aqua; */
+    height: 109.68px;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: flex-end;
 } 
+
+.m-sub-container {
+    background-color: #616161d0;
+    padding: 5px;
+    color: white;
+    font-size: 0.8em;
+    border-radius: 5px;
+}
 
 .hunziker {
     background-image: url(immagini/01-hunziker.jpg);
