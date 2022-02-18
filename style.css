@@ -51,7 +51,57 @@ main {
     background-color: blueviolet;
     display: flex;
     width: 100%;
+    align-items: center;
+    justify-content: center;
 }
+
+.m-container {
+    background-color: blue;
+    height: 95%;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.immagine-main {
+    width: 200px;
+    background-color: aqua;
+    height: 112.5px;
+    background-size: cover;
+    background-position: center;
+} 
+
+.hunziker {
+    background-image: url(immagini/01-hunziker.jpg);
+}
+
+.pamela {
+    background-image: url(immagini/02-anderson.jpg);
+}
+
+.kate {
+    background-image: url(immagini/03-kate-perry.jpg);
+}
+
+.teron {
+    background-image: url(immagini/04-teron.jpg);
+}
+
+.vergara{
+    background-image: url(immagini/05-vergara.jpg);
+}
+
+.steward {
+    background-image: url(immagini/06-steward.jpg);
+}
+
+.johnson {
+    background-image: url(immagini/07-johnson.jpg);
+}
+
+
 
 /* ANCHOR FOOTER  */
 
